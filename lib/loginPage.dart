@@ -54,7 +54,7 @@ class _LoginPageState extends State<LoginPage> {
             Navigator.of(context).pushNamed(HomePage.tag);
           },
           minWidth: 200.0,
-          height: 42.0,
+          height: 48.0,
           color: Colors.lightBlueAccent,
           child: Text(
             "Log In!",
@@ -65,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
     );
 
     final forgetLabel = TextButton(
-      child: Text("Forgot Password?", style: TextStyle(color: Colors.black54)),
+      child: Text("Forgot Password?", style: TextStyle(color: Colors.black54,fontSize:14)),
       onPressed: () {},
     );
 
